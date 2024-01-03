@@ -49,6 +49,6 @@ jobs:
           git push --all --force gitee
           git push --tags --force gitee
         env:
-          GITEE_REPOSITORY: telegeam/NavBioIT
+          GITEE_REPOSITORY: nodesharefree/nav
           GITEE_USERNAME: ${{ secrets.GITEE_USERNAME }}
           GITEE_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
